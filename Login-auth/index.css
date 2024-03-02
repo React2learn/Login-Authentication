@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+input {
+
+    margin-top: 20px;
+    padding: 10px;
+    width: 260px;
+    font-family: serif;
+    border: 1px solid darkgray;
+    font-size: medium;
+
+}
+
+input:focus {
+    outline-color: rgb(151, 76, 222);
+}
+
+form {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.user-login {
+    margin: auto;
+    justify-content: center;
+    margin-top: 40px;
+    border: 1px solid darkgray;
+    width: 350px;
+    padding-top: 15px;
+
+
+}
+
+h2 {
+    font-family: monospace;
+    text-align: center;
+    border-bottom: 1px solid darkgray;
+    padding-bottom: 15px;
+    color: blueviolet;
+}
+
+button {
+
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 7px;
+    padding-inline: 30px;
+    border: 1px solid darkgray;
+    background-color: blueviolet;
+    color: aliceblue;
+    font-family: cursive;
+    cursor: pointer;
+
+}
+
+.button-con {
+    margin-top: 50px;
+    text-align: center;
+    border-top: 1px solid darkgray;
+
+}

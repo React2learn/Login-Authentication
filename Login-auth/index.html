@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Authentication</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="user-login">
+        <h2>Login Authentication</h2>
+        <form action="/login" id="loginForm" method="post">
+            <input type="text" placeholder="username" name="username">
+            <input type="email" placeholder="email" name="email">
+            <input type="password" placeholder="password" name="password" id="passwordField" required>
+
+        </form>
+        <div class="button-con">
+            <button id="submitButton" type="button">Login</button>
+        </div>
+
+    </div>
+
+
+    <script>
+        document.getElementById("submitButton").addEventListener("click", function () {
+            var passField = document.getElementById("passwordField");
+            if (passField.checkValidity()) {
+                document.getElementById("loginForm").submit();
+            } else {
+                alert("Please fill in the password.");
+            }
+        })
+
+
+
+    </script>
+</body>
+
+</html>
